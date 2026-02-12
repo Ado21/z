@@ -56,7 +56,7 @@ export default {
         `\n${dev}`
 
       await client.sendContextInfoIndex(m.chat, info, {}, m, true, null, {
-        banner: 'https://cdn.sockywa.xyz/files/1755745696353.jpeg',
+        banner: 'https://cdn.yuki-wabot.my.id/files/5txZ.jpeg',
         title: '𖹭  ׄ  ְ ✿ Mediafire ✩',
         body: '✰ Descarga De MF',
         redes: global.db.data.settings[client.user.id.split(':')[0] + '@s.whatsapp.net'].link
