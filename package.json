@@ -53,6 +53,7 @@
     "ws": "^8.18.3",
     "yargs": "^18.0.0",
     "yt-search": "^2.10.4",
+    "yt-dl-js": "github:Ado21/yt-dl-js",
     "undici": "*"
   }
 }
