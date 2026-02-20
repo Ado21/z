@@ -147,7 +147,7 @@ export default {
         return m.reply(`《✧》 Fail\n\n• Catbox: ${errC || 'Error'}\n• AdoFiles: ${errA || 'Error'}`)
       }
 
-      let msg = `✎ *Upload*\n\n`
+      let msg = `✎ *Upload Success*\n\n`
       if (catboxLink) msg += `ׅ✿ *Catbox ›* ${catboxLink}\n`
       if (adoLink) msg += `ׅ✿ *AdoFiles ›* ${adoLink}\n`
       msg += `ׅ✿ *Peso ›* ${formatBytes(media.length)}\n`
