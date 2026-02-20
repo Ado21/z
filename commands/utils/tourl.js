@@ -79,7 +79,7 @@ export default {
       const userName = global.db.data.users[m.sender]?.name || 'Usuario'
       const upload = `✎ *Upload Success*\n\n` +
         `*Catbox:*\n` +
-        `ׅ✿ *›* ${catboxLink}\n\n` +
+        `ׅ✿ *›* ${catboxLink}\n` +
         `*AdonixFiles:*\n` +
         `ׅ✿ *›* ${adonixLink}\n` +
         `ׅ✿ *Peso ›* ${formatBytes(media.length)}\n` +
